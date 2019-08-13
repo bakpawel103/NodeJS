@@ -1,8 +1,8 @@
-GET http://localhost:2500/users
+GET https://signin-server.herokuapp.com/users
 
 ###
 
-POST http://localhost:2500/users
+POST https://signin-server.herokuapp.com/users
 Content-Type: application/json
 
 {
@@ -14,7 +14,7 @@ Content-Type: application/json
 
 ###
 
-POST http://localhost:2500/users/login
+POST https://signin-server.herokuapp.com/users/login
 Content-Type: application/json
 
 {
